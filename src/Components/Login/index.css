@@ -1,0 +1,88 @@
+/* Background */
+.loginContainer {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Card */
+.loginCard {
+  background-color: #272727;
+  width: 380px;
+  padding: 35px;
+  border-radius: 12px;
+  font-family: 'Roboto';
+}
+
+/* Logo */
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.websitelogo {
+  width: 120px;
+}
+
+/* Labels */
+.inputlabel {
+  color: #cbd5e1;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Input fields */
+.loginInputContainer {
+  background-color: transparent;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  padding: 12px;
+}
+
+.inputLogin {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Login button */
+.loginBtn {
+  background-color: #4f46e5;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Hover effect */
+.loginBtn:hover {
+  background-color: #4338ca;
+}
+
+/* Error message */
+.errorMsg {
+  margin-top: 8px;
+  color: #ff4d4f;
+  font-size: 14px;
+  text-align: center;
+}
+
+/**************** RESPONSIVE ******************/
+@media screen and (max-width: 480px) {
+  .loginCard {
+    width: 90%;
+    padding: 25px;
+  }
+}

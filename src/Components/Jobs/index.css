@@ -1,0 +1,214 @@
+/* Background for the page */
+.bgJobsContainer {
+  background-color: #000000;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Two column layout: Left (filters + profile) | Right (jobs list) */
+.jobsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 120px;
+  color: #ffffff;
+}
+
+/**************** LEFT SECTION (PROFILE + FILTERS) ******************/
+
+.topSection {
+  width: 30%;
+  padding-right: 20px;
+}
+
+/* Profile card */
+.profileCard {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/profile-bg.png");
+  background-size: cover;
+  border-radius: 12px;
+  padding: 25px;
+  color: #4f46e5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profileImg {
+  width: 70px;
+}
+
+.profile {
+  font-size: 20px;
+  font-weight: 600;
+  color: #6366f1;
+}
+
+.bio {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #f9fafb;
+}
+
+/* Retry */
+.profileFailure {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+
+.empTypeCategory {
+  margin: 25px 0;
+}
+
+.typeHead {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.listContainer {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.typeContainer {
+  margin-bottom: 12px;
+}
+
+.label {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.checkInput {
+  margin-right: 10px;
+}
+
+.horlines,
+.horline {
+  border: 1px solid #475569;
+}
+
+
+
+.inputContainer,
+.inputContainer2 {
+  display: flex;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 12px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+
+.iconContainer {
+  background-color: #272727;
+  padding: 10px;
+}
+
+.SearchIconBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.SearchIcon {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+
+
+.bottomSection {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.jobdetailsContainer {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Jobs list container */
+.allJobsContainer {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 25px;
+}
+
+
+.jobFailureContainer {
+  text-align: center;
+  color: #ffffff;
+}
+
+.jobFailureImg {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.jobFailhead {
+  font-size: 24px;
+}
+
+.jobfailContent {
+  font-size: 15px;
+  color: #e2e8f0;
+  margin-bottom: 25px;
+}
+
+.retryBtn {
+  background-color: #4f46e5;
+  border: none;
+  color: #ffffff;
+  padding: 10px 18px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .jobsContainer {
+    flex-direction: column;
+    padding-top: 100px;
+  }
+
+  .topSection,
+  .bottomSection {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .profileCard {
+    margin-bottom: 25px;
+  }
+
+  .inputContainer {
+    display: none; 
+  }
+
+  .inputContainer2 {
+    margin-top: 20px;
+  }
+}

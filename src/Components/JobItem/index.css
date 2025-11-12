@@ -1,0 +1,123 @@
+/* Remove default link styles */
+.link-text {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Main job card container */
+.singleJobContainer {
+  background-color: #272727;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.singleJobContainer:hover {
+  background-color: #323f4b;
+  transition: 0.2s ease-in-out;
+}
+
+/* Logo + title + rating section */
+.logosContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.job-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.jobTitleNew {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.star {
+  font-size: 20px;
+  color: #fbbf24; /* gold color */
+}
+
+.rating {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Location and package container */
+.locationSalaryContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.locContainer {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.singleLoc {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.locationLogo {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.empType {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.packagePerAnnum {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Divider line */
+.horlineNEWXs {
+  border: 0.8px solid #475569;
+  margin: 20px 0;
+}
+
+/* Description section */
+.descriptures {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.jobDescriptions {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .singleJobContainer {
+    padding: 18px;
+  }
+
+  .jobTitleNew {
+    font-size: 18px;
+  }
+
+  .packagePerAnnum {
+    font-size: 16px;
+  }
+}

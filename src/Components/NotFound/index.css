@@ -1,0 +1,40 @@
+.notFoundContainer {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  color: #ffffff;
+}
+
+.notFoundImg {
+  width: 350px;
+  margin-bottom: 25px;
+}
+
+.notFoundHead {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.notFoundMSG {
+  font-size: 16px;
+  color: #cbd5e1;
+  max-width: 380px;
+  line-height: 1.6;
+}
+
+/************** RESPONSIVE **************/
+@media screen and (max-width: 768px) {
+  .notFoundImg {
+    width: 250px;
+  }
+
+  .notFoundHead {
+    font-size: 24px;
+  }
+}

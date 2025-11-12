@@ -1,0 +1,97 @@
+.similarsingleJobContainer {
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 20px;
+  list-style-type: none;
+  width: 30%;
+  min-width: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.logosContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.jobLogo {
+  height: 50px;
+}
+
+.jobTitle {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.similarstar {
+  margin-right: 6px;
+  font-size: 16px;
+  color: #fbbf24;
+}
+
+.rating {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.similarJobDescript {
+  font-size: 18px;
+  margin: 18px 0 6px;
+}
+
+.smJobDescription {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.locationSalaryContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.locContainer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.singleLoc {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.locLogoes {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.detailss {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.package {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/************ RESPONSIVE ************/
+@media screen and (max-width: 768px) {
+  .similarsingleJobContainer {
+    width: 100%;
+  }
+}

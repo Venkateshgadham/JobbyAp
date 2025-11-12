@@ -1,0 +1,77 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #272727;
+  color: #ffffff;
+  width: 100%;
+}
+
+/* Logo */
+.logoBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.webLogo {
+  width: 120px;
+}
+
+/* Common button styles */
+.headerBtn,
+.logoutBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.logoutBtn {
+  background-color: #4f46e5;
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Icons */
+.icon {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/* Small screen container */
+.smallScreenContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style-type: none;
+}
+
+.largeScreenContainer {
+  display: none; /* Hide on small screen */
+}
+
+.logoutContainer {
+  display: none;
+}
+
+/* Desktop / Large screen view */
+@media screen and (min-width: 768px) {
+  .smallScreenContainer {
+    display: none; /* Hide small screen icons */
+  }
+
+  .largeScreenContainer {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+  }
+
+  .logoutContainer {
+    display: block;
+  }
+}
