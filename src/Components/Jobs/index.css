@@ -25,7 +25,7 @@
 
 /* Profile card */
 .profileCard {
-  background-image: url("https://assets.ccbp.in/frontend/react-js/profile-bg.png");
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
   background-size: cover;
   border-radius: 12px;
   padding: 25px;
@@ -58,8 +58,6 @@
   margin-top: 40px;
 }
 
-
-
 .empTypeCategory {
   margin: 25px 0;
 }
@@ -91,8 +89,6 @@
 .horline {
   border: 1px solid #475569;
 }
-
-
 
 .inputContainer,
 .inputContainer2 {
@@ -128,8 +124,6 @@
   color: #ffffff;
 }
 
-
-
 .bottomSection {
   width: 70%;
   margin-left: 20px;
@@ -146,7 +140,6 @@
   padding-left: 0;
   margin-top: 25px;
 }
-
 
 .jobFailureContainer {
   text-align: center;
@@ -178,15 +171,12 @@
   border-radius: 6px;
 }
 
-
 .loader-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 300px;
 }
-
-
 
 @media screen and (max-width: 768px) {
   .jobsContainer {
@@ -205,7 +195,7 @@
   }
 
   .inputContainer {
-    display: none; 
+    display: none;
   }
 
   .inputContainer2 {

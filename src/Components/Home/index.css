@@ -1,5 +1,5 @@
 .homeContainer {
-  background-image: url("https://assets.ccbp.in/frontend/react-js/home-lg-bg.png");
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -42,7 +42,7 @@
 /* Responsive design */
 @media screen and (max-width: 768px) {
   .homeContainer {
-    background-image: url("https://assets.ccbp.in/frontend/react-js/home-sm-bg.png");
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
     height: 100vh;
   }
 
