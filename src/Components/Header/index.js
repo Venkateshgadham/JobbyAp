@@ -14,29 +14,25 @@ const Header = props => {
   }
 
   return (
-    <div className="headerContainer">
-      <Link to="/">
-        <button className="logoBtn" type="button">
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-            alt="website logo"
-            className="webLogo"
-          />
-        </button>
+    <nav className="headerContainer">
+      <Link to="/" className="logoLink">
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+          alt="website logo"
+          className="webLogo"
+        />
       </Link>
+
+      {/* Mobile View Icons */}
       <ul className="smallScreenContainer">
         <li>
-          <Link to="/">
-            <button className="headerBtn" type="button">
-              <IoMdHome className="icon" />
-            </button>
+          <Link to="/" className="headerBtn">
+            <IoMdHome className="icon" />
           </Link>
         </li>
         <li>
-          <Link to="/jobs">
-            <button className="headerBtn" type="button">
-              <BsBriefcase className="icon" />
-            </button>
+          <Link to="/jobs" className="headerBtn">
+            <BsBriefcase className="icon" />
           </Link>
         </li>
         <li>
@@ -45,28 +41,25 @@ const Header = props => {
           </button>
         </li>
       </ul>
+
+      {/* Desktop View Links */}
       <ul className="largeScreenContainer">
         <li>
-          <Link to="/">
-            <button className="headerBtn" type="button">
-              Home
-            </button>
+          <Link to="/" className="headerBtn">
+            Home
           </Link>
         </li>
         <li>
-          <Link to="/jobs">
-            <button className="headerBtn" type="button">
-              Jobs
-            </button>
+          <Link to="/jobs" className="headerBtn">
+            Jobs
           </Link>
         </li>
       </ul>
-      <div className="logoutContainer">
-        <button className="logoutBtn" type="button" onClick={onClickLogout}>
-          Logout
-        </button>
-      </div>
-    </div>
+
+      <button className="logoutBtn" type="button" onClick={onClickLogout}>
+        Logout
+      </button>
+    </nav>
   )
 }
 
